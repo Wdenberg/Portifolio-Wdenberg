@@ -277,11 +277,20 @@ section .title::after{
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
+    margin-bottom: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
+.services .serv-content .card img{
+    width: 270px;
+    height: 150px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+}
 .services .serv-content .card:hover{
     background: crimson;
+   
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -289,18 +298,21 @@ section .title::after{
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
-    font-size: 50px;
+.services .serv-content .card .text{
+    font-size: 40px;
     color: crimson;
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.services .serv-content .card:hover img{
     color: #fff;
 }
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.services .serv-content .card .text:hover{
+    color: #fff;
 }
 
 /* skills section styling */
